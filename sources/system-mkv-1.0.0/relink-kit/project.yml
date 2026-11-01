@@ -1,0 +1,34 @@
+name: FrameIsleLibraryReplacement
+packages:
+  AMSMB2:
+    path: AMSMB2-4.0.3
+settings:
+  base:
+    SWIFT_VERSION: '5.0'
+targets:
+  MacHost:
+    type: application
+    platform: macOS
+    deploymentTarget: '14.0'
+    sources: [MacHost.swift]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.frameisle.library-replacement.example
+        GENERATE_INFOPLIST_FILE: YES
+        ARCHS: 'arm64 x86_64'
+        ONLY_ACTIVE_ARCH: NO
+    dependencies:
+      - package: AMSMB2
+        embed: true
+  DeviceHost:
+    type: application
+    platform: iOS
+    deploymentTarget: '17.0'
+    sources: [DeviceHost.swift]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.frameisle.library-replacement.device-example
+        GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - package: AMSMB2
+        embed: true

@@ -1,6 +1,6 @@
 # FrameIsle website
 
-Static English and Simplified Chinese product/support/privacy/license pages. Public support address: otsgame@yahoo.com. No application source, credentials, private media, analytics or third-party scripts belong in this repository.
+Static English, Simplified Chinese and Japanese product/support/privacy/license pages. Public support address: otsgame@yahoo.com. No application source, credentials, private media, analytics or third-party scripts belong in this repository.
 
 Preview: `python3 -m http.server 8765 --bind 127.0.0.1` from this directory.
 
