@@ -1,0 +1,14 @@
+FrameIsle system MKV baseline
+
+libwebm 1.0.0.32, commit f2a982d748b80586ae53b89a2e6ebbc305848b8c
+Copyright (c) 2010, The WebM Project authors. All rights reserved.
+BSD-style license; see libwebm-LICENSE.txt, libwebm-AUTHORS.txt and libwebm-PATENTS.txt.
+Upstream source: https://github.com/webmproject/libwebm/tree/f2a982d748b80586ae53b89a2e6ebbc305848b8c
+Archive SHA-256: 796857525e8b02ee6725f83c5f1e435b01b6aa57aedbe3879a9057ad1d290bec
+
+Only mkvparser/mkvparser.cc and required headers are compiled, statically, into this application.
+FrameIsle modifications: bounded strings and cluster entries; unused chapter/tag parsing skipped; duration/cue timestamp overflow guards. See the accompanying source patch in patches/libwebm.
+No libwebm decoder, encoder, muxer or network implementation is used.
+Video/audio decoding uses Apple frameworks. Patent grants in PATENTS.txt have their stated scope; this notice does not grant broader codec rights.
+
+AMSMB2/libsmb2 remain dynamically linked LGPL components with separate notices and source/relinking information. Historical FFmpeg build source archives remain available for recipients of those previous versions.

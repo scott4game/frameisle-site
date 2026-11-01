@@ -34,7 +34,7 @@ The exit button remains available in full screen. Tap the picture to show playba
 
 ### Subtitles and compatibility
 
-Use embedded subtitles or a same-name SRT file in the video folder. MP4, MKV and MOV are supported containers; playback depends on the video and audio codecs inside. DRM-protected media is not supported.
+Use embedded subtitles or a same-name SRT file in the video folder. MP4, M4V and MOV are supported containers; playback depends on the video and audio codecs inside. DRM-protected media is not supported.
 
 
 
@@ -94,7 +94,7 @@ Use Share Configuration in a connection's menu. Passwords are excluded by defaul
 
 ### 字幕与格式
 
-支持内嵌字幕和同目录同名 SRT。支持 MP4、MKV、MOV 容器，实际播放取决于内部编码，不支持受 DRM 保护的媒体。
+支持内嵌字幕和同目录同名 SRT。支持 MP4、M4V、MOV 容器，实际播放取决于内部编码，不支持受 DRM 保护的媒体。
 
 
 
@@ -148,7 +148,7 @@ SMBまたはWebDAVを選択し、サーバーのアドレスとアカウント�
 
 ### 再生・字幕
 
-MP4、MKV、MOVに対応しますが、再生可否は内部のコーデックに依存します。埋め込み字幕と同じフォルダの同名SRT字幕を利用できます。DRM付き動画には対応しません。フルスクリーンでは終了ボタンを常に表示し、画面をタップすると操作ボタンが現れます。iPadのウインドウモードでは端末を回転させる必要がある場合があります。
+MP4、M4V、MOVに対応しますが、再生可否は内部のコーデックに依存します。埋め込み字幕と同じフォルダの同名SRT字幕を利用できます。DRM付き動画には対応しません。フルスクリーンでは終了ボタンを常に表示し、画面をタップすると操作ボタンが現れます。iPadのウインドウモードでは端末を回転させる必要がある場合があります。
 
 
 

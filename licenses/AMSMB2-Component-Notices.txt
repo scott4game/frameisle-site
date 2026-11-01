@@ -1,0 +1,1860 @@
+Source notices for the pinned AMSMB2/libsmb2 distribution. Full source is in the corresponding-source archive.
+
+AMSMB2/AMSMB2.swift
+//
+//  AMSMB2.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 5/20/18.
+//  Copyright © 2018 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+AMSMB2/Context.swift
+//
+//  Context.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 5/20/18.
+//  Copyright © 2018 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+AMSMB2/Directory.swift
+//
+//  Directory.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 5/20/18.
+//  Copyright © 2018 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+AMSMB2/Extensions.swift
+//
+//  Extensions.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 5/21/18.
+//  Copyright © 2018 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+AMSMB2/FileHandle.swift
+//
+//  FileHandle.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 5/20/18.
+//  Copyright © 2018 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+AMSMB2/FileMonitoring.swift
+//
+//  FileMonitoring.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 10/14/24.
+//  Copyright © 2024 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+AMSMB2/Fsctl.swift
+//
+//  Fsctl.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 7/10/18.
+//  Copyright © 2018 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+AMSMB2/MSRPC.swift
+//
+//  MSRPC.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 7/31/18.
+//  Copyright © 2018 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+AMSMB2/ObjCCompat.swift
+//
+//  ObjCCompat.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 4/27/19.
+//  Copyright © 2019 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+#if canImport(Darwin)
+
+AMSMB2/Parsers.swift
+//
+//  Parsers.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 10/29/19.
+//  Copyright © 2019 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+AMSMB2/Stream.swift
+//
+//  Stream.swift
+//  AMSMB2
+//
+//  Created by Amir Abbas on 10/14/24.
+//  Copyright © 2024 Mousavian. Distributed under MIT license.
+//  All rights reserved.
+//
+
+
+Dependencies/libsmb2/lib/aes.c
+
+/*
+   Copyright (C) 2025 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+Dependencies/libsmb2/lib/aes.h
+#ifndef _AES_H_
+#define _AES_H_
+
+/*
+   Copyright (C) 2025 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+Dependencies/libsmb2/lib/aes128ccm.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2019 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/aes128ccm.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2019 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/aes_apple.c
+#ifndef AES_APPLE_H_
+#define AES_APPLE_H_
+
+/*
+   Copyright (C) 2025 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+Dependencies/libsmb2/lib/aes_apple.h
+
+#ifndef _AES_APPLE_H_
+#define _AES_APPLE_H_
+
+/*
+   Copyright (C) 2025 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+Dependencies/libsmb2/lib/aes_reference.c
+/* Based on https://github.com/bitdust/tiny-AES128-C
+ * Licenced as Public Domain
+ */
+
+/*
+This is an implementation of the AES128 algorithm, specifically ECB and CBC mode.
+The implementation is verified against the test vectors in:
+  National Institute of Standards and Technology Special Publication 800-38A 2001 ED
+ECB-AES128
+----------
+  plain-text:
+    6bc1bee22e409f96e93d7e117393172a
+    ae2d8a571e03ac9c9eb76fac45af8e51
+    30c81c46a35ce411e5fbc1191a0a52ef
+    f69f2445df4f9b17ad2b417be66c3710
+  key:
+    2b7e151628aed2a6abf7158809cf4f3c
+  resulting cipher
+    3ad77bb40d7a3660a89ecaf32466ef97
+    f5d3d58503b9699de785895a96fdbaaf
+    43b1cd7f598ece23881b00e3ed030688
+    7b0c785e27e8ad3f8223207104725dd4
+NOTE:   String length must be evenly divisible by 16byte (str_len % 16 == 0)
+        You should pad the end of the string with zeros if this is not the case.
+*/
+
+
+/*****************************************************************************/
+/* Includes:                                                                 */
+/*****************************************************************************/
+
+Dependencies/libsmb2/lib/aes_reference.h
+/* Based on https://github.com/bitdust/tiny-AES128-C
+ * Licenced as Public Domain
+ */
+
+#ifndef _AES_REFERENCE_H_
+#define _AES_REFERENCE_H_
+
+
+Dependencies/libsmb2/lib/alloc.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2017 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/asn1-ber.c
+/* ber_type:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+   Copyright (C) 2024 by André Guilherme <andregui17@outlook.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/asn1-ber.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+#ifndef _ASN1_BER_H_
+#define _ASN1_BER_H_
+
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+   and 2024 by Brian Dodge <bdodge09@gmail.com>
+   Copyright (C) 2024 by André Guilherme <andregui17@outlook.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http:/www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/compat.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2020 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+Dependencies/libsmb2/lib/compat.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2020 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef _COMPAT_H_
+#define _COMPAT_H_
+
+
+Dependencies/libsmb2/lib/dcerpc-lsa.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2020 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/dcerpc-srvsvc.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/dcerpc.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/errors.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+
+Dependencies/libsmb2/lib/init.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   Portions of this code are copyright 2017 to Primary Data Inc.
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/krb5-wrapper.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/krb5-wrapper.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+#ifndef _KRB5_WRAPPER_H_
+#define _KRB5_WRAPPER_H_
+
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/libsmb2.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   Portions of this code are copyright 2017 to Primary Data Inc.
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/md4.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+#ifndef _MD4_H_
+#define _MD4_H_
+
+/* From RFC1320 */
+
+/* MD4.H - header file for MD4C.C
+ */
+
+/* Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All
+   rights reserved.
+
+   License to copy and use this software is granted provided that it
+   is identified as the "RSA Data Security, Inc. MD4 Message-Digest
+   Algorithm" in all material mentioning or referencing this software
+   or this function.
+
+   License is also granted to make and use derivative works provided
+   that such works are identified as "derived from the RSA Data
+   Security, Inc. MD4 Message-Digest Algorithm" in all material
+   mentioning or referencing the derived work.
+
+   RSA Data Security, Inc. makes no representations concerning either
+   the merchantability of this software or the suitability of this
+   software for any particular purpose. It is provided "as is"
+   without express or implied warranty of any kind.
+
+   These notices must be retained in any copies of any part of this
+   documentation and/or software.
+ */
+
+/* MD4 context. */
+
+Dependencies/libsmb2/lib/md4c.c
+/* From RFC1320 */
+
+/* MD4C.C - RSA Data Security, Inc., MD4 message-digest algorithm
+ */
+
+/* Copyright (C) 1990-2, RSA Data Security, Inc. All rights reserved.
+
+   License to copy and use this software is granted provided that it
+   is identified as the "RSA Data Security, Inc. MD4 Message-Digest
+   Algorithm" in all material mentioning or referencing this software
+   or this function.
+
+   License is also granted to make and use derivative works provided
+   that such works are identified as "derived from the RSA Data
+   Security, Inc. MD4 Message-Digest Algorithm" in all material
+   mentioning or referencing the derived work.
+
+   RSA Data Security, Inc. makes no representations concerning either
+   the merchantability of this software or the suitability of this
+   software for any particular purpose. It is provided "as is"
+   without express or implied warranty of any kind.
+
+   These notices must be retained in any copies of any part of this
+   documentation and/or software.
+ */
+
+Dependencies/libsmb2/lib/md5.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+ * This code implements the MD5 message-digest algorithm.
+ * The algorithm is due to Ron Rivest.  This code was
+ * written by Colin Plumb in 1993, no copyright is claimed.
+ * This code is in the public domain; do with it what you wish.
+ *
+ * Equivalent code is available from RSA Data Security, Inc.
+ * This code has been tested against that, and is equivalent,
+ * except that you don't need to include two pages of legalese
+ * with every copy.
+ *
+ * To compute the message digest of a chunk of bytes, declare an
+ * MD5Context structure, pass it to MD5Init, call MD5Update as
+ * needed on buffers full of bytes, and then call MD5Final, which
+ * will fill a supplied 16-byte array with the digest.
+ *
+ * Changed so as no longer to depend on Colin Plumb's `usual.h' header
+ * definitions; now uses stuff from dpkg's config.h.
+ *  - Ian Jackson <ijackson@nyx.cs.du.edu>.
+ * Still in the public domain.
+ */
+
+
+Dependencies/libsmb2/lib/md5.h
+/*
+ * This is the header file for the MD5 message-digest algorithm.
+ * The algorithm is due to Ron Rivest.  This code was
+ * written by Colin Plumb in 1993, no copyright is claimed.
+ * This code is in the public domain; do with it what you wish.
+ *
+ * Equivalent code is available from RSA Data Security, Inc.
+ * This code has been tested against that, and is equivalent,
+ * except that you don't need to include two pages of legalese
+ * with every copy.
+ *
+ * To compute the message digest of a chunk of bytes, declare an
+ * MD5Context structure, pass it to MD5Init, call MD5Update as
+ * needed on buffers full of bytes, and then call MD5Final, which
+ * will fill a supplied 16-byte array with the digest.
+ *
+ * Changed so as no longer to depend on Colin Plumb's `usual.h'
+ * header definitions; now uses stuff from dpkg's config.h
+ *  - Ian Jackson <ijackson@nyx.cs.du.edu>.
+ * Still in the public domain.
+ */
+
+#ifndef MD5_H
+#define MD5_H
+
+
+Dependencies/libsmb2/lib/ntlmssp.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/ntlmssp.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+#ifndef _GSSAPI_WRAPPER_H_
+#define _GSSAPI_WRAPPER_H_
+
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/pdu.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/ps2/irx_imports.h
+/*
+# _____     ___ ____     ___ ____
+#  ____|   |    ____|   |        | |____|
+# |     ___|   |____ ___|    ____| |    \    PS2DEV Open Source Project.
+#-----------------------------------------------------------------------
+# Copyright ps2dev - http://www.ps2dev.org
+# Licenced under Academic Free License version 2.0
+# Review ps2sdk README & LICENSE files for further details.~
+#
+# Defines all IRX imports.
+*/
+
+#ifndef IOP_IRX_IMPORTS_H
+#define IOP_IRX_IMPORTS_H
+
+
+Dependencies/libsmb2/lib/ps2/smb2_fio.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+  SMB2MAN
+  Ronnie Sahlberg <ronniesahlberg@gmail.com> 2021
+  André Guilherme <andregui17@outlook.com> 2023-2024
+
+  Based on SMBMAN:
+  Copyright 2009-2010, jimmikaelkael
+  Licenced under Academic Free License version 3.0
+*/
+
+
+Dependencies/libsmb2/lib/ps2/smb2_fio.h
+/*
+  SMB2MAN
+  Ronnie Sahlberg <ronniesahlberg@gmail.com> 2021
+  André Guilherme <andregui17@outlook.com> 2023-2024
+
+  Based on SMBMAN:
+  Copyright 2009-2010, jimmikaelkael
+  Licenced under Academic Free License version 3.0
+*/
+#ifndef __SMB2_FIO_H__
+#define __SMB2_FIO_H__
+
+
+Dependencies/libsmb2/lib/ps2/smb2man.c
+/*
+  SMB2MAN
+  Ronnie Sahlberg <ronniesahlberg@gmail.com> 2021
+  André Guilherme <andregui17@outlook.com> 2023-2024
+
+  Based on SMBMAN:
+  Copyright 2009-2010, jimmikaelkael
+  Licenced under Academic Free License version 3.0
+*/
+
+
+Dependencies/libsmb2/lib/smb2-cmd-close.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-create.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-echo.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-error.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-flush.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-ioctl.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-lock.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Brian Dodge <bdodge09@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-logoff.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-negotiate.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-notify-change.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Brian Dodge <bdodge09g@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-oplock-break.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Brian Dodge <bdodge09g@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-query-directory.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-query-info.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-read.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-session-setup.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-set-info.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-tree-connect.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-tree-disconnect.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-cmd-write.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-data-file-info.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2017 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-data-filesystem-info.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-data-reparse-point.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-data-security-descriptor.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2017 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   Portions of this code are copyright 2017 to Primary Data Inc.
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-share-enum.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-signing.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb2-signing.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+#ifndef _SMB2_SIGNING_H_
+#define _SMB2_SIGNING_H_
+
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb3-seal.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2019 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/smb3-seal.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+#ifndef _SMB3_SEAL_H_
+#define _SMB3_SEAL_H_
+
+/*
+   Copyright (C) 2019 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/socket.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/spnego-wrapper.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2024 by Brian Dodge <bdodge09@gmail.com>
+   Copyright (C) 2024 by André Guilherme <andregui17@outlook.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/spnego-wrapper.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+#ifndef SPEGNO_WRAPPER_H
+#define SPEGNO_WRAPPER_H 1
+
+/*
+   Copyright (C) 2024 by Brian Dodge <bdodge09@gmail.com>
+   Copyright (C) 2024 by André Guilherme <andregui17@outlook.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/sync.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/timestamps.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/lib/unicode.c
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+Dependencies/libsmb2/include/libsmb2-private.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef _LIBSMB2_PRIVATE_H_
+#define _LIBSMB2_PRIVATE_H_
+
+
+Dependencies/libsmb2/include/picow/FreeRTOSConfig.h
+/*
+ * FreeRTOS V202111.00
+ * Copyright (C) 2020 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to
+ * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * http://www.FreeRTOS.org
+ * http://aws.amazon.com/freertos
+ *
+ * 1 tab == 4 spaces!
+ */
+
+#ifndef FREERTOS_CONFIG_H
+#define FREERTOS_CONFIG_H
+
+/*-----------------------------------------------------------
+ * Application specific definitions.
+ *
+ * These definitions should be adjusted for your particular hardware and
+ * application requirements.
+ *
+ * THESE PARAMETERS ARE DESCRIBED WITHIN THE 'CONFIGURATION' SECTION OF THE
+ * FreeRTOS API DOCUMENTATION AVAILABLE ON THE FreeRTOS.org WEB SITE.
+ *
+ * See http://www.freertos.org/a00110.html
+ *----------------------------------------------------------*/
+
+/* Scheduler Related */
+#define configUSE_PREEMPTION                    1
+#define configUSE_TICKLESS_IDLE                 0
+#define configUSE_IDLE_HOOK                     0
+#define configUSE_TICK_HOOK                     0
+#define configTICK_RATE_HZ                      ( ( TickType_t ) 1000 )
+#define configMAX_PRIORITIES                    32
+#define configMINIMAL_STACK_SIZE                ( configSTACK_DEPTH_TYPE ) 2048
+#define configUSE_16_BIT_TICKS                  0
+
+#define configIDLE_SHOULD_YIELD                 1
+
+/* Synchronization Related */
+#define configUSE_MUTEXES                       1
+#define configUSE_RECURSIVE_MUTEXES             1
+#define configUSE_APPLICATION_TASK_TAG          0
+#define configUSE_COUNTING_SEMAPHORES           1
+#define configQUEUE_REGISTRY_SIZE               8
+#define configUSE_QUEUE_SETS                    1
+#define configUSE_TIME_SLICING                  1
+#define configUSE_NEWLIB_REENTRANT              0
+// todo need this for lwip FreeRTOS sys_arch to compile
+#define configENABLE_BACKWARD_COMPATIBILITY     1
+#define configNUM_THREAD_LOCAL_STORAGE_POINTERS 5
+
+/* System */
+#define configSTACK_DEPTH_TYPE                  uint32_t
+#define configMESSAGE_BUFFER_LENGTH_TYPE        size_t
+
+/* Memory allocation related definitions. */
+#define configSUPPORT_STATIC_ALLOCATION         0
+#define configSUPPORT_DYNAMIC_ALLOCATION        1
+#define configTOTAL_HEAP_SIZE                   (128*1024)
+#define configAPPLICATION_ALLOCATED_HEAP        0
+
+/* Hook function related definitions. */
+#define configCHECK_FOR_STACK_OVERFLOW          0
+#define configUSE_MALLOC_FAILED_HOOK            0
+#define configUSE_DAEMON_TASK_STARTUP_HOOK      0
+
+/* Run time and task stats gathering related definitions. */
+#define configGENERATE_RUN_TIME_STATS           0
+#define configUSE_TRACE_FACILITY                1
+#define configUSE_STATS_FORMATTING_FUNCTIONS    0
+
+/* Co-routine related definitions. */
+#define configUSE_CO_ROUTINES                   0
+#define configMAX_CO_ROUTINE_PRIORITIES         1
+
+/* Software timer related definitions. */
+#define configUSE_TIMERS                        1
+#define configTIMER_TASK_PRIORITY               ( configMAX_PRIORITIES - 1 )
+#define configTIMER_QUEUE_LENGTH                10
+#define configTIMER_TASK_STACK_DEPTH            1024
+
+/* Interrupt nesting behaviour configuration. */
+/*
+#define configKERNEL_INTERRUPT_PRIORITY         [dependent of processor]
+
+Dependencies/libsmb2/include/portable-endian.h
+// "License": Public Domain
+// I, Mathias Panzenbck, place this file hereby into the public domain. Use it at your own risk for whatever you like.
+// In case there are jurisdictions that don't support putting things in the public domain you can also consider it to
+// be "dual licensed" under the BSD, MIT and Apache licenses, if you want to. This code is trivial anyway. Consider it
+// an example on how to get the endian conversion functions on different platforms.
+
+#ifndef PORTABLE_ENDIAN_H__
+#define PORTABLE_ENDIAN_H__
+
+#if (defined(_WIN16) || defined(_WIN32) || defined(_WIN64)) && !defined(__WINDOWS__) && !defined(_XBOX) 
+#define __WINDOWS__
+#endif
+
+#if defined(__PS2__) || defined(PICO_PLATFORM)
+
+#ifndef _LITTLE_ENDIAN
+#define _LITTLE_ENDIAN LITTLE_ENDIAN
+#endif
+#if defined(_EE) || defined(PICO_PLATFORM)
+
+Dependencies/libsmb2/include/slist.h
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef __smb2_slist_h__
+#define __smb2_slist_h__
+
+#define SMB2_LIST_ADD(list, item) \
+	do {							\
+		(item)->next = (*list);				\
+		(*list) = (item);				\
+	} while (0);
+
+#define SMB2_LIST_ADD_END(list, item)	\
+	if ((*list) == NULL) {	 				\
+	   SMB2_LIST_ADD((list), (item));			\
+	} else {						\
+
+Dependencies/libsmb2/include/smb2/libsmb2-dcerpc-lsa.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2020 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef _LIBSMB2_DCERPC_LSA_H_
+#define _LIBSMB2_DCERPC_LSA_H_
+
+
+Dependencies/libsmb2/include/smb2/libsmb2-dcerpc-srvsvc.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef _LIBSMB2_DCERPC_SRVSVC_H_
+#define _LIBSMB2_DCERPC_SRVSVC_H_
+
+
+Dependencies/libsmb2/include/smb2/libsmb2-dcerpc.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2018 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef _LIBSMB2_DCERPC_H_
+#define _LIBSMB2_DCERPC_H_
+
+
+Dependencies/libsmb2/include/smb2/libsmb2-raw.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef _LIBSMB2_RAW_H_
+#define _LIBSMB2_RAW_H_
+
+
+Dependencies/libsmb2/include/smb2/libsmb2.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef _LIBSMB2_H_
+#define _LIBSMB2_H_
+
+
+Dependencies/libsmb2/include/smb2/smb2-errors.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+/*
+ * NTSTATUS fields
+ */
+#define SMB2_STATUS_SEVERITY_MASK    0xc0000000
+#define SMB2_STATUS_SEVERITY_SUCCESS 0x00000000
+#define SMB2_STATUS_SEVERITY_INFO    0x40000000
+#define SMB2_STATUS_SEVERITY_WARNING 0x80000000
+#define SMB2_STATUS_SEVERITY_ERROR   0xc0000000
+
+#define SMB2_STATUS_CUSTOMER_MASK    0x20000000
+
+#define SMB2_STATUS_FACILITY_MASK    0x0fff0000
+
+#define SMB2_STATUS_CODE_MASK        0x0000ffff
+
+
+/* Error codes */
+#define SMB2_STATUS_SUCCESS                            0x00000000
+#define SMB2_STATUS_SHUTDOWN                           0xffffffff
+#define SMB2_STATUS_PENDING                            0x00000103
+#define SMB2_STATUS_SMB_BAD_FID                        0x00060001
+#define SMB2_STATUS_NO_MORE_FILES                      0x80000006
+#define SMB2_STATUS_UNSUCCESSFUL                       0xC0000001
+#define SMB2_STATUS_NOT_IMPLEMENTED                    0xC0000002
+#define SMB2_STATUS_INVALID_INFO_CLASS                 0xC0000003
+#define SMB2_STATUS_INFO_LENGTH_MISMATCH               0xC0000004
+#define SMB2_STATUS_ACCESS_VIOLATION                   0xC0000005
+#define SMB2_STATUS_IN_PAGE_ERROR                      0xC0000006
+#define SMB2_STATUS_PAGEFILE_QUOTA                     0xC0000007
+#define SMB2_STATUS_INVALID_HANDLE                     0xC0000008
+#define SMB2_STATUS_BAD_INITIAL_STACK                  0xC0000009
+#define SMB2_STATUS_BAD_INITIAL_PC                     0xC000000A
+#define SMB2_STATUS_INVALID_CID                        0xC000000B
+#define SMB2_STATUS_TIMER_NOT_CANCELED                 0xC000000C
+#define SMB2_STATUS_INVALID_PARAMETER                  0xC000000D
+#define SMB2_STATUS_NO_SUCH_DEVICE                     0xC000000E
+#define SMB2_STATUS_NO_SUCH_FILE                       0xC000000F
+#define SMB2_STATUS_INVALID_DEVICE_REQUEST             0xC0000010
+#define SMB2_STATUS_END_OF_FILE                        0xC0000011
+#define SMB2_STATUS_WRONG_VOLUME                       0xC0000012
+#define SMB2_STATUS_NO_MEDIA_IN_DEVICE                 0xC0000013
+#define SMB2_STATUS_UNRECOGNIZED_MEDIA                 0xC0000014
+#define SMB2_STATUS_NONEXISTENT_SECTOR                 0xC0000015
+#define SMB2_STATUS_MORE_PROCESSING_REQUIRED           0xC0000016
+#define SMB2_STATUS_NO_MEMORY                          0xC0000017
+#define SMB2_STATUS_CONFLICTING_ADDRESSES              0xC0000018
+#define SMB2_STATUS_NOT_MAPPED_VIEW                    0xC0000019
+#define SMB2_STATUS_UNABLE_TO_FREE_VM                  0xC000001A
+#define SMB2_STATUS_UNABLE_TO_DELETE_SECTION           0xC000001B
+#define SMB2_STATUS_INVALID_SYSTEM_SERVICE             0xC000001C
+#define SMB2_STATUS_ILLEGAL_INSTRUCTION                0xC000001D
+#define SMB2_STATUS_INVALID_LOCK_SEQUENCE              0xC000001E
+#define SMB2_STATUS_INVALID_VIEW_SIZE                  0xC000001F
+#define SMB2_STATUS_INVALID_FILE_FOR_SECTION           0xC0000020
+#define SMB2_STATUS_ALREADY_COMMITTED                  0xC0000021
+#define SMB2_STATUS_ACCESS_DENIED                      0xC0000022
+#define SMB2_STATUS_BUFFER_TOO_SMALL                   0xC0000023
+#define SMB2_STATUS_OBJECT_TYPE_MISMATCH               0xC0000024
+#define SMB2_STATUS_NONCONTINUABLE_EXCEPTION           0xC0000025
+#define SMB2_STATUS_INVALID_DISPOSITION                0xC0000026
+#define SMB2_STATUS_UNWIND                             0xC0000027
+#define SMB2_STATUS_BAD_STACK                          0xC0000028
+#define SMB2_STATUS_INVALID_UNWIND_TARGET              0xC0000029
+#define SMB2_STATUS_NOT_LOCKED                         0xC000002A
+#define SMB2_STATUS_PARITY_ERROR                       0xC000002B
+#define SMB2_STATUS_UNABLE_TO_DECOMMIT_VM              0xC000002C
+#define SMB2_STATUS_NOT_COMMITTED                      0xC000002D
+#define SMB2_STATUS_INVALID_PORT_ATTRIBUTES            0xC000002E
+#define SMB2_STATUS_PORT_MESSAGE_TOO_LONG              0xC000002F
+#define SMB2_STATUS_INVALID_PARAMETER_MIX              0xC0000030
+#define SMB2_STATUS_INVALID_QUOTA_LOWER                0xC0000031
+#define SMB2_STATUS_DISK_CORRUPT_ERROR                 0xC0000032
+#define SMB2_STATUS_OBJECT_NAME_INVALID                0xC0000033
+#define SMB2_STATUS_OBJECT_NAME_NOT_FOUND              0xC0000034
+#define SMB2_STATUS_OBJECT_NAME_COLLISION              0xC0000035
+#define SMB2_STATUS_HANDLE_NOT_WAITABLE                0xC0000036
+#define SMB2_STATUS_PORT_DISCONNECTED                  0xC0000037
+#define SMB2_STATUS_DEVICE_ALREADY_ATTACHED            0xC0000038
+#define SMB2_STATUS_OBJECT_PATH_INVALID                0xC0000039
+#define SMB2_STATUS_OBJECT_PATH_NOT_FOUND              0xC000003A
+#define SMB2_STATUS_OBJECT_PATH_SYNTAX_BAD             0xC000003B
+#define SMB2_STATUS_DATA_OVERRUN                       0xC000003C
+
+Dependencies/libsmb2/include/smb2/smb2.h
+/* -*-  mode:c; tab-width:8; c-basic-offset:8; indent-tabs-mode:nil;  -*- */
+/*
+   Copyright (C) 2016 by Ronnie Sahlberg <ronniesahlberg@gmail.com>
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU Lesser General Public License as published by
+   the Free Software Foundation; either version 2.1 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Lesser General Public License for more details.
+
+   You should have received a copy of the GNU Lesser General Public License
+   along with this program; if not, see <http://www.gnu.org/licenses/>.
+*/
+
+#ifndef _SMB2_H_
+#define _SMB2_H_

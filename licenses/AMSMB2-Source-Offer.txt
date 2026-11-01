@@ -1,0 +1,13 @@
+FrameIsle uses AMSMB2 4.0.3 and its bundled libsmb2.
+AMSMB2 is embedded as a dynamic framework; libsmb2 is compiled into that framework.
+Copyright notices and LGPL 2.1 text are included alongside this notice.
+
+Exact source revisions, included component notices, build instructions and remaining
+release checks are documented in release/compliance/NATIVE-AMSMB2.md in the project.
+Upstream sources: https://github.com/amosavian/AMSMB2/tree/4.0.3
+
+Verified immutable corresponding-source archive:
+https://raw.githubusercontent.com/scott4game/frameisle-site/32b9ebe662846c8b6eb62b92edb0d429888f2db8/sources/AMSMB2-4.0.3/AMSMB2-4.0.3-corresponding-source.tar.gz
+
+Contact otsgame@yahoo.com for help obtaining source materials for your build.
+Physical-device replacement/signing and commercial-release review remain pending.
