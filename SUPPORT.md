@@ -34,7 +34,7 @@ The exit button remains available in full screen. Tap the picture to show playba
 
 ### Subtitles and compatibility
 
-Use embedded subtitles or a same-name SRT file in the video folder. MP4, M4V and MOV are supported containers; playback depends on the video and audio codecs inside. DRM-protected media is not supported.
+Use embedded subtitles or a same-name SRT/VTT file in the video folder. MP4, M4V, MOV and compatible H.264/HEVC MKV are supported; playback depends on the device and codecs. DRM-protected media is not supported.
 
 
 
@@ -58,7 +58,7 @@ Open a NAS video's menu and choose Cache Locally. The Local Cache screen shows p
 
 ### Share a connection
 
-Use Share Configuration in a connection's menu. Passwords are excluded by default. If you choose to include a password, anyone with the QR image can read it. Import Configuration supports the camera and image import; inspect the server address before saving. Import creates a new connection and never silently overwrites an existing one.
+Use Share Configuration in a connection's menu. Passwords are excluded by default. If you choose to include a password, anyone with the QR image can read it. On iPhone and iPad, Import Configuration supports camera scanning and image import. On Mac, import a saved QR image file. Inspect the server address before saving. Import creates a new connection and never silently overwrites an existing one.
 
 ## 简体中文
 
@@ -94,7 +94,7 @@ Use Share Configuration in a connection's menu. Passwords are excluded by defaul
 
 ### 字幕与格式
 
-支持内嵌字幕和同目录同名 SRT。支持 MP4、M4V、MOV 容器，实际播放取决于内部编码，不支持受 DRM 保护的媒体。
+支持内嵌字幕及同目录同名 SRT/VTT。支持 MP4、M4V、MOV 及兼容的 H.264/HEVC MKV，实际播放取决于设备和内部编码，不支持受 DRM 保护的媒体。
 
 
 
@@ -118,7 +118,7 @@ iOS/iPadOS 与 Mac 分别一次性购买。Apple 处理支付；符合条件的�
 
 ### 分享连接配置
 
-在连接菜单选择“分享配置”，默认不包含密码。主动勾选包含密码后，获得二维码图片的人都可以读取密码。导入支持相机扫码和图片选择，保存前请核对服务器地址。导入创建新连接，不自动覆盖已有连接。
+在连接菜单选择“分享配置”，默认不包含密码。主动勾选包含密码后，获得二维码图片的人都可以读取密码。iPhone 和 iPad 支持相机扫码和图片导入；Mac 通过已保存的二维码图片文件导入。保存前请核对服务器地址。导入创建新连接，不自动覆盖已有连接。
 
 ## 日本語
 
@@ -142,13 +142,13 @@ SMBまたはWebDAVを選択し、サーバーのアドレスとアカウント�
 
 ### 接続コード
 
-接続のメニューから設定を共有できます。パスワードは初期状態では含めません。含める場合、コードを受け取った人はパスワードを読み取れます。カメラまたは画像から読み込み、保存前にアドレスを確認してください。既存の接続は上書きされません。
+接続のメニューから設定を共有できます。パスワードは初期状態では含めません。含める場合、コードを受け取った人はパスワードを読み取れます。iPhoneとiPadではカメラまたは画像から読み込み、Macでは保存したQR画像ファイルを読み込みます。保存前にアドレスを確認してください。既存の接続は上書きされません。
 
 
 
 ### 再生・字幕
 
-MP4、M4V、MOVに対応しますが、再生可否は内部のコーデックに依存します。埋め込み字幕と同じフォルダの同名SRT字幕を利用できます。DRM付き動画には対応しません。フルスクリーンでは終了ボタンを常に表示し、画面をタップすると操作ボタンが現れます。iPadのウインドウモードでは端末を回転させる必要がある場合があります。
+MP4、M4V、MOVおよび対応するH.264/HEVCのMKVを再生できます。再生可否は端末とコーデックに依存します。埋め込み字幕と同じフォルダの同名SRT/VTT字幕を利用できます。DRM付き動画には対応しません。フルスクリーンでは終了ボタンを常に表示し、画面をタップすると操作ボタンが現れます。iPadのウインドウモードでは端末を回転させる必要がある場合があります。
 
 
 
