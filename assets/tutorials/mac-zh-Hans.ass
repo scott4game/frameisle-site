@@ -1,0 +1,23 @@
+[Script Info]
+PlayResX: 1280
+PlayResY: 912
+WrapStyle: 0
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Unicode MS,32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,28,28,24,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:00.00,00:00:05.00,Default,,0,0,0,,用映屿播放你自己的视频。\N无需注册，也不提供影视内容。
+Dialogue: 0,00:00:05.00,00:00:21.56,Default,,0,0,0,,选择“添加本地文件夹”，\N在系统选择器中授权目录。
+Dialogue: 0,00:00:21.56,00:00:38.45,Default,,0,0,0,,导入可信二维码，添加 NAS 连接。\N此处使用本机测试账号。
+Dialogue: 0,00:00:38.45,00:00:49.38,Default,,0,0,0,,SMB 自动发现共享目录。\N选择目录即可浏览视频。
+Dialogue: 0,00:00:49.38,00:00:56.44,Default,,0,0,0,,点开视频，开始播放。
+Dialogue: 0,00:00:56.44,00:01:03.45,Default,,0,0,0,,拖动进度条，跳转到想看的位置。
+Dialogue: 0,00:01:03.45,00:01:19.75,Default,,0,0,0,,进入全屏，再点击退出全屏按钮\N回到播放器。
+Dialogue: 0,00:01:19.75,00:01:30.39,Default,,0,0,0,,点击星标收藏目录，\N从首页收藏列表快速进入。
+Dialogue: 0,00:01:30.39,00:01:40.39,Default,,0,0,0,,打开视频菜单，选择“缓存到本地”。\N下载完成前请保持应用在前台。
+Dialogue: 0,00:01:40.39,00:01:53.82,Default,,0,0,0,,从“本地缓存”播放已完成的本地副本。
+Dialogue: 0,00:01:53.82,00:02:05.55,Default,,0,0,0,,不需要时删除本地缓存。\NNAS 上的原文件不会被删除。
+Dialogue: 0,00:02:05.55,00:02:16.55,Default,,0,0,0,,用二维码分享连接配置。\N默认不包含密码。
+Dialogue: 0,00:02:16.55,00:02:37.39,Default,,0,0,0,,导入二维码图片，确认配置后保存。\N另一台设备需单独填写密码。
+Dialogue: 0,00:02:37.39,00:02:40.39,Default,,0,0,0,,更多帮助：设置 → 新手指南。\Nframeisle.icqnft.com
