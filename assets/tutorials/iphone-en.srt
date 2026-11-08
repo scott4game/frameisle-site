@@ -1,0 +1,66 @@
+1
+00:00:00,000 --> 00:00:05,006
+Play your own videos with FrameIsle.
+No account or included movies.
+
+2
+00:00:05,006 --> 00:00:26,803
+Add Local Folder and authorize it
+using the system file picker.
+
+3
+00:00:26,803 --> 00:00:53,395
+Add your NAS address and account.
+This recording uses a local test server.
+
+4
+00:00:53,395 --> 00:01:05,646
+SMB discovers shared folders automatically.
+Choose a share to browse its videos.
+
+5
+00:01:05,646 --> 00:01:11,013
+Open a video to start playback.
+
+6
+00:01:11,013 --> 00:01:18,353
+Drag the timeline to find your place.
+
+7
+00:01:18,353 --> 00:01:31,804
+Enter full screen, then use the exit button
+to return to the player.
+
+8
+00:01:31,804 --> 00:01:49,034
+Tap the star to save this folder.
+Open it again from Favorite Folders.
+
+9
+00:01:49,034 --> 00:02:03,047
+Open the video menu and choose Cache Locally.
+Keep the app open until the download finishes.
+
+10
+00:02:03,047 --> 00:02:15,207
+Play the completed local copy from Local Cache.
+
+11
+00:02:15,207 --> 00:02:25,436
+Delete the cached copy when you no longer need it.
+The original NAS file is kept.
+
+12
+00:02:25,436 --> 00:02:36,049
+Share the connection as a QR code.
+Passwords are excluded by default.
+
+13
+00:02:36,049 --> 00:02:53,995
+Import a QR image and review it before saving.
+Enter the password separately on the other device.
+
+14
+00:02:53,995 --> 00:02:57,000
+More help: Settings → Getting Started.
+frameisle.icqnft.com
