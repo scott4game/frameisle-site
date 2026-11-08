@@ -1,0 +1,23 @@
+[Script Info]
+PlayResX: 1280
+PlayResY: 912
+WrapStyle: 0
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Unicode MS,32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,28,28,24,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:00.00,00:00:05.00,Default,,0,0,0,,自分の動画をFrameIsleで再生。\Nアカウント登録は不要です。
+Dialogue: 0,00:00:05.00,00:00:22.24,Default,,0,0,0,,「ローカルフォルダを追加」で\Nフォルダへのアクセスを許可します。
+Dialogue: 0,00:00:22.24,00:00:39.40,Default,,0,0,0,,信頼できるQR設定からNASを追加。\Nこの例はローカルのテスト用アカウントです。
+Dialogue: 0,00:00:39.40,00:00:50.30,Default,,0,0,0,,SMBの共有フォルダを自動検出。\N共有を選んで動画を表示します。
+Dialogue: 0,00:00:50.30,00:00:57.29,Default,,0,0,0,,動画を開いて再生します。
+Dialogue: 0,00:00:57.29,00:01:04.28,Default,,0,0,0,,シークバーで再生位置を調整します。
+Dialogue: 0,00:01:04.28,00:01:19.10,Default,,0,0,0,,全画面で視聴し、解除ボタンで\Nプレーヤーに戻ります。
+Dialogue: 0,00:01:19.10,00:01:28.47,Default,,0,0,0,,星を選んでフォルダをお気に入りに。\Nホームからすぐに開けます。
+Dialogue: 0,00:01:28.47,00:01:38.53,Default,,0,0,0,,動画メニューから端末にダウンロード。\N完了までアプリを前面に保ちます。
+Dialogue: 0,00:01:38.53,00:01:49.55,Default,,0,0,0,,完了したローカルコピーを再生します。
+Dialogue: 0,00:01:49.55,00:02:01.23,Default,,0,0,0,,不要になったローカルコピーを削除。\NNASの元ファイルは残ります。
+Dialogue: 0,00:02:01.23,00:02:12.20,Default,,0,0,0,,接続設定をQRコードで共有。\Nパスワードは初期状態では含みません。
+Dialogue: 0,00:02:12.20,00:02:32.94,Default,,0,0,0,,QR画像を読み込み、内容を確認して保存。\N別の端末ではパスワードを別途入力します。
+Dialogue: 0,00:02:32.94,00:02:35.94,Default,,0,0,0,,詳しくは「設定 → はじめに」。\Nframeisle.icqnft.com

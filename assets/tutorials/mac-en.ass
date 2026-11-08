@@ -1,0 +1,23 @@
+[Script Info]
+PlayResX: 1280
+PlayResY: 912
+WrapStyle: 0
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial Unicode MS,32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,28,28,24,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,00:00:00.00,00:00:05.00,Default,,0,0,0,,Play your own videos with FrameIsle.\NNo account or included movies.
+Dialogue: 0,00:00:05.00,00:00:21.44,Default,,0,0,0,,Add Local Folder and authorize it\Nusing the system file picker.
+Dialogue: 0,00:00:21.44,00:00:38.36,Default,,0,0,0,,Import a trusted QR configuration to add your NAS.\NThis demo uses a local test account.
+Dialogue: 0,00:00:38.36,00:00:49.28,Default,,0,0,0,,SMB discovers shared folders automatically.\NChoose a share to browse its videos.
+Dialogue: 0,00:00:49.28,00:00:56.26,Default,,0,0,0,,Open a video to start playback.
+Dialogue: 0,00:00:56.26,00:01:03.25,Default,,0,0,0,,Drag the timeline to find your place.
+Dialogue: 0,00:01:03.25,00:01:19.09,Default,,0,0,0,,Enter full screen, then use the exit button\Nto return to the player.
+Dialogue: 0,00:01:19.09,00:01:29.76,Default,,0,0,0,,Tap the star to save this folder.\NOpen it again from Favorite Folders.
+Dialogue: 0,00:01:29.76,00:01:39.66,Default,,0,0,0,,Open the video menu and choose Cache Locally.\NKeep the app open until the download finishes.
+Dialogue: 0,00:01:39.66,00:01:50.45,Default,,0,0,0,,Play the completed local copy from Local Cache.
+Dialogue: 0,00:01:50.45,00:02:02.09,Default,,0,0,0,,Delete the cached copy when you no longer need it.\NThe original NAS file is kept.
+Dialogue: 0,00:02:02.09,00:02:13.03,Default,,0,0,0,,Share the connection as a QR code.\NPasswords are excluded by default.
+Dialogue: 0,00:02:13.03,00:02:33.80,Default,,0,0,0,,Import a QR image and review it before saving.\NEnter the password separately on the other device.
+Dialogue: 0,00:02:33.80,00:02:36.81,Default,,0,0,0,,More help: Settings → Getting Started.\Nframeisle.icqnft.com
