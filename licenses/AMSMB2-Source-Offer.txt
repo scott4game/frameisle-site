@@ -11,3 +11,9 @@ https://raw.githubusercontent.com/scott4game/frameisle-site/32b9ebe662846c8b6eb6
 
 Contact otsgame@yahoo.com for help obtaining source materials for your build.
 Physical-device replacement/signing and commercial-release review remain pending.
+
+Recipient delivery update — 2026-11-09:
+Existing recipients may request the matching unencrypted iOS 15 / Mac 10 application
+copy, corresponding library source and replacement instructions from otsgame@yahoo.com.
+No application business source or private signing key is included. Mac replacement
+passed on Apple silicon; physical iOS and Intel execution remain unverified.
