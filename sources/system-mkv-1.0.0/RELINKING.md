@@ -25,3 +25,7 @@ The bundled notice in builds 15/10 records the pending review at build time and 
 
 
 References: https://www.gnu.org/licenses/gpl-faq.en.html#LGPLStaticVsDynamic ; https://opensource.org/license/LGPL-2.1 ; https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ .
+
+## Folder-download candidates — November 9
+
+Matching unencrypted recipient packages for iOS 1.0.0 (16) and Mac 1.0.0 (11) are also prepared and available on request at otsgame@yahoo.com. These packages include the exact library source and instructions. Earlier Mac 10 replacement evidence remains historical; no new iOS recipient or Intel execution is claimed. The application binaries are not publicly hosted.

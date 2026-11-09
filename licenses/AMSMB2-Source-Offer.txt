@@ -10,10 +10,10 @@ Verified immutable corresponding-source archive:
 https://raw.githubusercontent.com/scott4game/frameisle-site/32b9ebe662846c8b6eb62b92edb0d429888f2db8/sources/AMSMB2-4.0.3/AMSMB2-4.0.3-corresponding-source.tar.gz
 
 Contact otsgame@yahoo.com for help obtaining source materials for your build.
-Physical-device replacement/signing and commercial-release review remain pending.
-
-Recipient delivery update — 2026-11-09:
-Existing recipients may request the matching unencrypted iOS 15 / Mac 10 application
-copy, corresponding library source and replacement instructions from otsgame@yahoo.com.
-No application business source or private signing key is included. Mac replacement
-passed on Apple silicon; physical iOS and Intel execution remain unverified.
+Existing recipients may also request the matching unencrypted application copy,
+library source and replacement instructions from this mailbox. These materials
+support replacement of the interface-compatible dynamic library; they do not
+include application business source or private signing keys. Platform-valid
+re-signing is required. Mac replacement was tested on Apple silicon; physical
+iOS replacement and Intel execution remain unverified.
+Current instructions: https://frameisle.icqnft.com/licenses.html

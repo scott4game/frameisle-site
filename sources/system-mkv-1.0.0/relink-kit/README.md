@@ -36,3 +36,7 @@ The rebuilt framework is under `output/<platform>/Build/Products/Release*/Packag
 These steps describe engineering validation, not guaranteed modification of an App Store-downloaded/FairPlay-protected binary. Existing recipients may request an unencrypted copy of build 15 (iOS) or 10 (Mac), exact library source and instructions from the support mailbox. This does not claim a completed iOS physical-device replacement test. Contact `otsgame@yahoo.com` for the exact build's materials and assistance.
 
 Apple's Standard EULA includes an exception to its reverse-engineering/modification restrictions where the included open-source component license permits those actions. This does not by itself settle every licensing or distribution question: [Standard EULA, section a](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
+
+## Folder-download candidates — November 9
+
+Matching unencrypted recipient packages for iOS 1.0.0 (16) and Mac 1.0.0 (11) are also prepared and available on request at otsgame@yahoo.com. These packages include the exact library source and instructions. Earlier Mac 10 replacement evidence remains historical; no new iOS recipient or Intel execution is claimed. The application binaries are not publicly hosted.
